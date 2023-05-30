@@ -1,0 +1,9 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://database-bank.cjim0uimds7w.us-east-2.rds.amazonaws.com:5432/postgres
+    username: postgres
+    password: postgres
+  mvc:
+    pathmatch:
+      matching-strategy: ant_path_matcher
+
